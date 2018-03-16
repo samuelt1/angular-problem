@@ -1,27 +1,14 @@
-# SimpleTest
+This is a very simple angular demonstration
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+run angular with the command `ng s --prod` and look at the browser.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+open a terminal to see that the url contains `undefined`
+```
+http://localhost:4200/undefined/api/v1/current-user
+It should be  here:   ^^^^^^^^^ 
+```
 
-## Code scaffolding
+Also note the color of the loading background. To see the proper color and what the url should be run `ng s`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Feel free to comment and un-comment lines in any of the environments file.

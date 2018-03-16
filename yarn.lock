@@ -2518,6 +2518,14 @@ forwarded@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
 
+"fp-ng-components@file:../fast-pack-app-components/module":
+  version "0.1.12"
+  dependencies:
+    ngx-cookie "^2.0.1"
+    ngx-loading "^1.0.14"
+    ngx-toastr "^8.1.1"
+    tslib "^1.7.1"
+
 fragment-cache@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/fragment-cache/-/fragment-cache-0.2.1.tgz#4290fad27f13e89be7f33799c6bc5a0abfff0d19"
@@ -4273,6 +4281,20 @@ netmask@~1.0.4:
 next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
+
+ngx-cookie@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ngx-cookie/-/ngx-cookie-2.0.1.tgz#031d8938bf9026954356b3b3ae668e2e1964e584"
+
+ngx-loading@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/ngx-loading/-/ngx-loading-1.0.14.tgz#19758c33ea3fa9bb96dca1f40ca19d4d86b8042c"
+
+ngx-toastr@^8.1.1:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-8.3.0.tgz#4f79df590484de1caa2e29f9bee4cbf2c5aff097"
+  dependencies:
+    tslib "^1.7.1"
 
 no-case@^2.2.0:
   version "2.3.2"
