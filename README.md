@@ -1,6 +1,6 @@
 This is a very simple angular demonstration
 
-run angular with the command `ng s --prod` and look at the browser.
+run angular with the command `ng s --prod` or `ng s -aot` and look at the browser.
 
 
 open a terminal to see that the url contains `undefined`
